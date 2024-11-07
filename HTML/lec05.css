@@ -1,0 +1,28 @@
+h1{
+    background-color: aqua;
+    /* display: inline; */
+    width: 500px;
+}
+p{
+    /* background-color: rgb(225, 255, 0); */
+   font-size: larger; 
+}
+a{
+    background-color: rgb(255, 72, 0);
+    /* display: inline-block; */
+}
+div{
+    background-color: rgb(255, 72, 0);
+    display: inline-block;
+}
+span{
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    width: 500px;
+}
+.box1{
+    /* width: 150px; */
+    height: 150px;
+    overflow-x:visible; 
+    /* hidden, scroll, auto,visible */
+}
