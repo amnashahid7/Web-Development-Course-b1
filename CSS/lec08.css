@@ -1,0 +1,89 @@
+body{
+    font-family: "Sour Gummy", sans-serif;
+}
+@font-face{
+    font-family: "axi";
+    src: url("../font/Axiforma-BookItalic.ttf");
+}
+.heading{
+    
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      text-shadow: 3px 4px rgb(183, 11, 40);
+}
+
+.para{
+    font-family: "axi";
+    }
+    p{
+        
+        background-color: palevioletred;
+    }
+    span{
+        background-color: aquamarine;
+    }
+
+    h1{
+        background-color: blueviolet;
+      width: 200px;
+      }
+    a{
+        background-color: cadetblue;
+        display: inline-block;
+        width: 200px;
+        height: 200px; 
+    }
+    .remove{
+        background-color: yellow;
+       
+    }
+    .maxMargin{
+        max-width: 100px;
+        min-width: 10px;
+    }
+    .div1{
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        display: inline-block;
+        /* position: absolute; */
+        top: 150px;
+        /* position: sticky; */
+    }
+    .div5{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 127, 217);
+        display: inline-block;
+        /* position: absolute; */
+        bottom: 150px;
+        position: sticky;
+        right: 0;
+    }
+    .div2{
+        /* display: inline-block; */
+        width: 100px;
+        height: 100px;
+        background-color: rgb(49, 186, 141);
+    }
+    .div3{
+        /* display: inline-block; */
+        width: 100px;
+        height: 100px;
+        background-color: rgb(13, 17, 16);
+        position: absolute;
+        top: 150px;
+    }
+    .div4{
+        /* display: inline-block; */
+        width: 100px;
+        height: 100px;
+        background-color: rgb(81, 105, 97);
+        position: fixed;
+        left: 216px;
+        
+
+    }
