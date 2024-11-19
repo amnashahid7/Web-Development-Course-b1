@@ -1,14 +1,44 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .box{
     width: 100%;
-    height: auto;
-    border: 2px solid black;
-    padding: 5px;
+    height: 5000px;
+    border: 2px solid rgb(32, 182, 117);
+    padding: 20px;
+    margin-top: 20px;
     margin-top: 0px 0px 0px 0px;
+    position: relative;
+}
+.box2{
+    width: 100%;
+    height: 5000px;
+    border: 4px solid green;
+    margin-top: 20px;
 }
 img{
     width: 180px;
     height: 180px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(32, 182, 117);
     margin-right: 10px;
 }
+/* .img2{
+    position: relative;
+    top: 100px;
+    left: 240px;
+} */
+
+/* .img3{
+    position: absolute;
+    top: 200px;
+} */
+ .img4{
+    position: fixed;
+    right: 0;
+ }
+ .img3{
+    position: sticky;
+    top: 20px;
+ }
