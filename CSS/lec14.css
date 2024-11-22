@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+h2{
+    width: 200px;
+    
+    background-color: white;
+    color: blueviolet;
+    border: 10px double purple;
+    padding: 10px;
+    margin: 50px;
+}
+@media screen and (max-width:360px){
+    body{
+        background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+    }
+    h2{
+    width: 100%;
+    background-color: rgb(197, 225, 13);
+    color: rgb(43, 128, 226);
+    border: 10px solid purple;
+    padding: 10px;
+    margin: 0;
+   
+    }
+}
